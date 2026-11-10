@@ -1,0 +1,21 @@
+# Local runtime / secrets
+data.sqlite
+data.sqlite-*
+*.sqlite
+*.sqlite3
+uploads/
+*.bak
+*.bak-self
+.onefile-write-*
+.env
+.env.*
+
+# Local sync helper (machine-specific XAMPP path)
+_sync.php
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
