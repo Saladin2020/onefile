@@ -41,9 +41,9 @@ Security-minded defaults: SQLite files and uploads are guarded by rules embedded
 
 ## Quick start
 
-**Requirements:** PHP 8+ with PDO (SQLite and/or MySQL), Apache (or any host that can serve PHP + honor `.htaccess` if you want the protection rules).
+**Requirements:** PHP 8+ with PDO (SQLite and/or MySQL). Apache recommended if you want the app to write `.htaccess` protection rules for you.
 
-1. Copy `index.php` (and optionally `.htaccess`) into a web directory.
+1. Copy `index.php` into a web directory.
 2. Open it in the browser.
 3. Walk through the install wizard — pick SQLite for zero ops, or MySQL if you already have one.
 4. Sign in. Write something imperfect on purpose. Publish when ready.
@@ -72,7 +72,6 @@ RSS lives at:
 
 ```text
 index.php     # the entire application
-.htaccess     # optional starter rules (also regenerable from inside the app)
 README.md     # you are here
 ```
 
